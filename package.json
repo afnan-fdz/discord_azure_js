@@ -1,0 +1,29 @@
+{
+  "name": "discord_azure_js",
+  "version": "1.0.0",
+  "description": "Personal Discord Bot for Experimentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afnan-fdz/discord_azure_js.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Afnan Dzaharudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afnan-fdz/discord_azure_js/issues"
+  },
+  "homepage": "https://github.com/afnan-fdz/discord_azure_js#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  }
+}
