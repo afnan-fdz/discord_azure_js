@@ -22,6 +22,9 @@ for (const file of commandFiles) {
 // When the client is ready, run this code (only once)
 client.once("ready", (c) => {
   console.log(`Ready! Logged in as ${c.user.tag}`);
+
+  // Set an activity for the client
+  client.user.setActivity("I'm back!", { type: "STREAMING" });
 });
 
 // When a command is called, run this code
