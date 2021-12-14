@@ -3,3 +3,7 @@ node_modules
 
 # Ignore config.json
 config.json
+
+# Ignore output files for long strings
+out.json
+out.txt
