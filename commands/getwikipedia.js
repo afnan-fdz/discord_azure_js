@@ -17,14 +17,10 @@ module.exports = {
     )
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
-        console.log(json.query.pages);
         const key = Object.keys(json.query.pages)[0];
         return json.query.pages[key].extract;
       })
       .then((str) => {
-        console.log(str);
-
         if (str.length <= 0) {
           interaction.editReply("Article does not exist.");
         } else if (str.length < 2000) {
