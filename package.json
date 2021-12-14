@@ -2,8 +2,9 @@
   "name": "discord_azure_js",
   "version": "1.0.0",
   "description": "Personal Discord Bot for Experimentation",
-  "main": "index.js",
+  "main": "azure.js",
   "scripts": {
+    "all": "node deploy-commands.js && node azure.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,12 @@
   },
   "homepage": "https://github.com/afnan-fdz/discord_azure_js#readme",
   "dependencies": {
-    "discord.js": "^13.3.1"
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "hastebin-gen": "^2.0.5",
+    "node-fetch": "^2.6.6"
   },
   "devDependencies": {
     "eslint": "^8.4.1"
