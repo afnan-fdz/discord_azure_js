@@ -7,3 +7,6 @@ config.json
 # Ignore output files for long strings
 out.json
 out.txt
+
+# Ignore my testing file for... testing stuff
+test.js
